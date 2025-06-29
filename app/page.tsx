@@ -1,6 +1,10 @@
 import { BlogPosts } from 'app/components/posts'
 
 export default function Page() {
+  useEffect(() => {
+    window.location.href = 'https://elodiebaptism.my.canva.site/'
+  }, [])
+
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
